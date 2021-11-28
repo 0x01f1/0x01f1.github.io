@@ -1,75 +1,71 @@
-  body,h1,h2,h3,h4,h5,h6,p,b,li {
-    font-family: "Press Start 2P", sans-serif
-  }
+* {
+  font-family: "Press Start 2P", sans-serif
+}
 
-  @font-face {
-    font-family: "Press Start 2P", sans-serif
-  }
+.emote {
+  width: 32px;
+  height: auto;
+}
 
-  .emote {
-    width: 32px;
-    height: auto;
-  }
+.ads {
+  width: 100%;
+  height: auto;
+}
 
-  .ads {
-    width: 100%;
-    height: auto;
-  }
+.body {
+  margin-bottom: 5;
+}
 
-  .body {
-    margin-bottom: 5;
-  }
+.navbar-inverse {
+  background-color: #212529;
+}
 
-  .navbar-inverse {
-    background-color: #212529;
-  }
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
 
-  .navbar {
-    margin-bottom: 0;
-    border-radius: 0;
-  }
+.nes-container {
+  margin-top: 10px; 
+  margin-bottom: 10px;
+}
 
-  .nes-container {
-    margin-top: 10px; 
-    margin-bottom: 10px;
-  }
+.footer {
+  margin-top: 10px; 
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
-  .footer {
-    margin-top: 10px; 
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  
-  .sidenav {
-    padding-top: 20px;
-    /*background-color: #f1f1f1;*/
-    height: 100%;
-  }
+.sidenav {
+  padding-top: 20px;
+  /*background-color: #f1f1f1;*/
+  height: 100%;
+}
 
-  .twitch .twitch-video {
-    padding-top: 56.25%;
-    position: relative;
-    height: 0;
-  }
+.twitch .twitch-video {
+  padding-top: 56.25%;
+  position: relative;
+  height: 0;
+}
 
-  .twitch .twitch-video iframe {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-  }
+.twitch .twitch-video iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
 
-  .twitch .twitch-chat {
-    height: 400px;
-  }
+.twitch .twitch-chat {
+  height: 400px;
+}
 
-  .twitch .twitch-chat iframe {
-    width: 100%;
-    height: 100%;
-  }
+.twitch .twitch-chat iframe {
+  width: 100%;
+  height: 100%;
+}
 
-  @media screen and (min-width: 850px) {
+@media screen and (min-width: 850px) {
   .twitch {
     position: relative;
   }
