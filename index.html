@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="css/main.css" />
   </head>
 
@@ -41,11 +42,11 @@
                 <form method="dialog">
                   <div class="nes-field">
                     <label for="name_field">User Name</label>
-                    <input type="text" id="name_field" class="nes-input">
+                    <input type="text" id="name_field" class="nes-input is-success">
                   </div>
                   <div class="nes-field">
                     <label for="name_field">Password</label>
-                    <input type="text" id="name_field" class="nes-input">
+                    <input type="text" id="name_field" class="nes-input is-error">
                   </div>
                   <menu class="dialog-menu">
                     <button class="nes-btn">Cancel</button>
@@ -92,7 +93,7 @@
             <div class="twitch">
               <div class="twitch-video">
                 <iframe
-                  src="https://player.twitch.tv/?autoplay=true&channel=0x01f1&parent=0x01f1.github.io"
+                  src="https://player.twitch.tv/?autoplay=true&channel=0x01f1&parent=localhost"
                   frameborder="0"
                   scrolling="no"
                   allowfullscreen="true"
@@ -105,7 +106,7 @@
                 <iframe
                   frameborder="0"
                   scrolling="no"
-                  src="https://www.twitch.tv/embed/phil_nash/chat?parent=0x01f1.github.io"
+                  src="https://www.twitch.tv/embed/phil_nash/chat?parent=localhost"
                   height="100%"
                   width="100%">
                 </iframe>
@@ -180,17 +181,18 @@
         </div>
       </div>
         <div class="col-sm-3 sidenav">
-          <div class="nes-container is-rounded is-dark">
+          <div class="nes-container with-title is-rounded is-dark">
+            <p class="title">Announcement</p>
             <i><img class="emote" src="images/bits.png"> Thank You For Supporting Me</i>
           </div>
 
           <div class="nes-container with-title is-rounded is-dark">
-            <p class="title">Ads</p>
+            <p class="title">Advertisement</p>
             <img class="ads" src="images/ads.png">
           </div>
 
           <div class="nes-container with-title is-rounded is-dark text-left">
-            <p class="title nes-icon heart is-small">.Contributors</p>
+            <p class="title">Contributors</p>
             <p><img class="emote" src="images/ghost.png">anonymous <i class="nes-icon trophy is-small"></i></p>
             <p><img class="emote" src="images/emote/wtf.png">0x01f1 <i class="nes-icon heart is-small"></i></p>
             <p><img class="emote" src="images/emote/run.png">theeCX <i class="nes-icon star is-small"></i></p>
@@ -198,7 +200,7 @@
           </div>
 
           <div class="nes-container with-title is-rounded is-dark">
-            <p class="title nes-icon is-small like">.Social</p>
+            <p class="title">Social</p>
             <div class="div">
                 <div class="lists">
                     <a href="https://www.twitter.com/0x01f1">
